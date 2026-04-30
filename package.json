@@ -4,7 +4,10 @@
   "description": "A proof of concept website for the Network for Responsible Public Policy, a political education nonprofit. Part of my final project for POLS313 Politics and Technology at Montclair State University.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' server/src.ts",
+    "lint": "eslint src/**/*.ts",
   },
   "repository": {
     "type": "git",
