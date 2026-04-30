@@ -1,0 +1,31 @@
+{
+  "name": "nfrpp",
+  "version": "1.0.0",
+  "description": "A proof of concept website for the Network for Responsible Public Policy, a political education nonprofit. Part of my final project for POLS313 Politics and Technology at Montclair State University.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rebeccafez/nfrpp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rebeccafez/nfrpp/issues"
+  },
+  "homepage": "https://github.com/rebeccafez/nfrpp#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.6.0",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
