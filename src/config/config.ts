@@ -9,6 +9,7 @@ interface Config {
     postgresPort: number;
     postgresUser: string;
     postgresPassword: string;
+    postgresDb: string;
 }
 
 const config: Config = {
@@ -18,6 +19,7 @@ const config: Config = {
     postgresPort: Number(process.env['POSTGRES_PORT']) || 5432,
     postgresUser: process.env['POSTGRES_USER'] || 'postgres',
     postgresPassword: process.env['POSTGRES_PASSWORD'] || '',
+    postgresDb: process.env['POSTGRES_DB'] || 'postgres',
 };
 
 export default config
